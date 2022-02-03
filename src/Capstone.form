@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Capstone">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="876" height="808"/>
+    </constraints>
+    <properties>
+      <background color="-13619152"/>
+      <foreground color="-15521658"/>
+    </properties>
+    <border type="none">
+      <font name="Comic Sans MS" size="24" style="0"/>
+      <title-color color="-13619152"/>
+    </border>
+    <children>
+      <tabbedpane id="82f6c" binding="tabbedPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13619152"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="18" style="0"/>
+          <foreground color="-3421759"/>
+          <tabLayoutPolicy value="0"/>
+        </properties>
+        <border type="none">
+          <font name="Comic Sans MS" size="24" style="0"/>
+          <title-color color="-13619152"/>
+        </border>
+        <children>
+          <grid id="db93e" binding="calculatorTab" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <tabbedpane title="Calculator"/>
+            </constraints>
+            <properties>
+              <background color="-13619152"/>
+            </properties>
+            <border type="none">
+              <font name="Comic Sans MS" size="24" style="0"/>
+              <title-color color="-13619152"/>
+            </border>
+            <children>
+              <component id="28c09" class="javax.swing.JTextField" binding="textField">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12828863"/>
+                  <font name="Eras Bold ITC" size="72" style="1"/>
+                  <foreground color="-3421759"/>
+                </properties>
+              </component>
+              <grid id="7df11" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13619152"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b0582" class="javax.swing.JButton" binding="num2">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="2"/>
+                    </properties>
+                  </component>
+                  <component id="35c43" class="javax.swing.JButton" binding="num3">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="3"/>
+                    </properties>
+                  </component>
+                  <component id="46685" class="javax.swing.JButton" binding="cle">
+                    <constraints>
+                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="CLEAR"/>
+                    </properties>
+                  </component>
+                  <component id="9d12f" class="javax.swing.JButton" binding="mul">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="*"/>
+                    </properties>
+                  </component>
+                  <component id="821f5" class="javax.swing.JButton" binding="min">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                  <component id="9e31a" class="javax.swing.JButton" binding="num5">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="5"/>
+                    </properties>
+                  </component>
+                  <component id="83e99" class="javax.swing.JButton" binding="num9">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="9"/>
+                    </properties>
+                  </component>
+                  <component id="3463e" class="javax.swing.JButton" binding="neg">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="(-)"/>
+                    </properties>
+                  </component>
+                  <component id="2a44c" class="javax.swing.JButton" binding="num7">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="7"/>
+                    </properties>
+                  </component>
+                  <component id="21848" class="javax.swing.JButton" binding="num4">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="4"/>
+                    </properties>
+                  </component>
+                  <component id="ee884" class="javax.swing.JButton" binding="num1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="1"/>
+                    </properties>
+                  </component>
+                  <component id="df8c7" class="javax.swing.JButton" binding="div">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="/"/>
+                    </properties>
+                  </component>
+                  <component id="93f8" class="javax.swing.JButton" binding="equ">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="="/>
+                    </properties>
+                  </component>
+                  <component id="6d46d" class="javax.swing.JButton" binding="num0">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
+                  <component id="aa115" class="javax.swing.JButton" binding="dec">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="."/>
+                    </properties>
+                  </component>
+                  <component id="8ae52" class="javax.swing.JButton" binding="num8">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="8"/>
+                    </properties>
+                  </component>
+                  <component id="5e85a" class="javax.swing.JButton" binding="add">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="846a8" class="javax.swing.JButton" binding="num6">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="6"/>
+                    </properties>
+                  </component>
+                  <component id="2ed5d" class="javax.swing.JButton" binding="del">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13619152"/>
+                      <font name="Fira Code" size="48" style="3"/>
+                      <foreground color="-3421759"/>
+                      <text value="DELETE"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="d792b" binding="notepadTab" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Notepad"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="69520">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3c06d" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
